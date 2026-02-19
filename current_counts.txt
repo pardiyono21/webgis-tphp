@@ -1,0 +1,3 @@
+Sawah: 177
+Ladang: 284
+Kebun: 869
