@@ -159,8 +159,14 @@
                         <div class="flex justify-between items-center">
                             <div class="flex items-center space-x-3">
                                 <div class="bg-red-100 dark:bg-red-500/10 p-2 rounded-lg">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-600 dark:text-red-500" viewBox="0 0 24 24" fill="currentColor">
-                                        <path d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09c1.358-2.473 1.231-5.069.17-7.42-3.376 0-6.155 2.115-6.91 5.097 2.185.076 4.195.952 5.918 2.274a15.77 15.77 0 0 1 .494.398ZM12 11c0 3.517 1.009 6.799 2.753 9.571m3.44-2.04l-.054-.09c-1.358-2.473-1.231-5.069-.17-7.42 3.376 0 6.155 2.115 6.91 5.097-2.185.076-4.195.952-5.918 2.274a15.77 15.77 0 0 0-.494.398Z"/>
+                                    <svg viewBox="0 0 48 48" class="h-6 w-6" version="1" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 48 48">
+                                        <g fill="#FF9800">
+                                            <rect x="36.1" y="8.1" transform="matrix(.707 .707 -.707 .707 21.201 -25.184)" width="9.9" height="9.9"></rect>
+                                            <rect x="36" y="8" width="10" height="10"></rect>
+                                        </g>
+                                        <circle fill="#FFEB3B" cx="41" cy="13" r="3"></circle>
+                                        <polygon fill="#2E7D32" points="16.5,18 0,42 33,42"></polygon>
+                                        <polygon fill="#4CAF50" points="33.6,24 19.2,42 48,42"></polygon>
                                     </svg>
                                 </div>
                                 <div>
@@ -275,8 +281,14 @@
                                         <p class="text-xs opacity-90 mt-1">{{ getAgriCount('ladang', selectedKecamatan.gid) }} lokasi terdaftar</p>
                                     </div>
                                     <div class="absolute -bottom-4 -right-4 opacity-20 pointer-events-none group-hover:opacity-30 transition-opacity">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-32 w-32 text-white transform rotate-12" viewBox="0 0 24 24" fill="currentColor">
-                                            <path d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09c1.358-2.473 1.231-5.069.17-7.42-3.376 0-6.155 2.115-6.91 5.097 2.185.076 4.195.952 5.918 2.274a15.77 15.77 0 0 1 .494.398ZM12 11c0 3.517 1.009 6.799 2.753 9.571m3.44-2.04l-.054-.09c-1.358-2.473-1.231-5.069-.17-7.42 3.376 0 6.155 2.115 6.91 5.097-2.185.076-4.195.952-5.918 2.274a15.77 15.77 0 0 0-.494.398Z"/>
+                                        <svg viewBox="0 0 48 48" class="h-32 w-32 transform rotate-12" version="1" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 48 48">
+                                            <g fill="#FF9800">
+                                                <rect x="36.1" y="8.1" transform="matrix(.707 .707 -.707 .707 21.201 -25.184)" width="9.9" height="9.9"></rect>
+                                                <rect x="36" y="8" width="10" height="10"></rect>
+                                            </g>
+                                            <circle fill="#FFEB3B" cx="41" cy="13" r="3"></circle>
+                                            <polygon fill="#2E7D32" points="16.5,18 0,42 33,42"></polygon>
+                                            <polygon fill="#4CAF50" points="33.6,24 19.2,42 48,42"></polygon>
                                         </svg>
                                     </div>
                                 </div>
